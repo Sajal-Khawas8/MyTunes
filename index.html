@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/logo.png" type="image/icon type">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>MyTunes</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="brand">
+            <img src="./images/logo.png" alt="MyTunes">
+            <h1>MyTunes</h1>
+        </div>
+        <div class="nav">
+            <ul>
+                <li class="home"><a href="">Home</a></li>
+                <li class="about"><a href="">About</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+        </div>
+    </header>
+
+    <!-- Main Body -->
+    <section class="container">
+
+        <!-- Block-1 - player -->
+        <div class="player">
+                <img src="./images/playing.gif" id="gif1">
+            <div class="card">
+                <div class="picture">
+                    <img src="" alt="Thumbnail" id="thumbnail">
+                </div>
+                <input type="range" name="range" id="progressBar" min="0" value="0" max="100">
+                <div class="menu">
+                    <audio id="audioPlayer" src=""></audio>
+                    <img src="./images/previous.png" alt="Pause" id="previous">
+                    <img src="./images/pause.png" alt="Pause" id="pause-button">
+                    <img src="./images/play.png" alt="Play" id="play-button">
+                    <img src="./images/download.png" alt="Download" id="download-button">
+                    <img src="./images/next.png" alt="Pause" id="next">
+                </div>
+            </div>
+                <img src="./images/playing.gif" id="gif2">
+        </div>
+
+        <!-- Block-2 - Play List -->
+        <div class="block-2">
+            <div id="play-list">
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        Copyright &copy; 2022 - MyTunes - All Rights Reserved.
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" src="./responsive.js"></script>
+</body>
+
+</html>
