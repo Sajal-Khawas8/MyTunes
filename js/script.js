@@ -9,6 +9,7 @@ let downloadButton = document.getElementById("download-button");
 let previousButton = document.getElementById("previous");
 let nextButton = document.getElementById("next");
 let progressBar = document.getElementById("progressBar");
+let currentTime = 0;
 
 let songs = [
     {
@@ -64,7 +65,7 @@ function generatePlaylist() {
                         alt="" class="profile">
                     <marquee behavior="" direction="" class="title">${song.title}</marquee>
                     <div class="duration">${song.duration}</div>
-                    <img src="./images/play-button.png" alt="" id="play-pause${song.id}" class="play-pause" onclick="playSong(${song.id})">
+                    <img src="./images/play-button.png" alt="" id="play-pause${song.id}" class="play-pause" onclick="playPauseDownload(${song.id})">
                 </div>
         `
         htmlString += songHtml;
@@ -81,47 +82,47 @@ function makeAllPlays() {
     })
 }
 
-function pauseSong(songid) {
+function pauseSong(song, songid) {
+    currentTime = audioPlayer.currentTime;
     audioPlayer.pause();
     gif1.style.opacity = 0;
     gif2.style.opacity = 0;
     progressBar.style.opacity = 0;
     makeAllPlays();
-    document.getElementById("play-pause" + songid).addEventListener("click", () => { playSong(songid) });
+    document.getElementById("play-pause" + songid).addEventListener("click", () => { playSong(song, songid, currentTime) });
 }
 
-//Managing the Play, Pause and Download 
-//This function will be called on clicking on the play button on the song card
-function playSong(songid) {
-    //This will fetch the song
-    var song = songs.find(function (song) {
-        return song.id === songid;
-    })
-
+function playSong(song, songid, currentTime) {
     makeAllPlays();
     document.getElementById("play-pause" + songid).src = "./images/pause-button.png";
-    document.getElementById("play-pause" + songid).addEventListener("click", () => { pauseSong(songid) });
+    document.getElementById("play-pause" + songid).addEventListener("click", () => { pauseSong(song, songid) });
     thumbnail.src = song.imageSrc;
     audioPlayer.src = song.audioSrc;
     gif1.style.opacity = 1;
     gif2.style.opacity = 1;
     progressBar.style.opacity = 1;
+    audioPlayer.currentTime = currentTime;
     audioPlayer.play();
+}
+
+//Managing the Play, Pause and Download 
+//This function will be called on clicking on the play button on the song card
+function playPauseDownload(songid) {
+    //This will fetch the song
+    let song = songs.find(function (song) {
+        return song.id === songid;
+    })
+
+    playSong(song, songid, 0);
 
     // Managing the play button
     playButton.addEventListener("click", () => {
-        audioPlayer.play();
-        makeAllPlays();
-        document.getElementById("play-pause" + songid).src = "./images/pause-button.png";
-        document.getElementById("play-pause" + songid).addEventListener("click", () => { pauseSong(songid) });
-        gif1.style.opacity = 1;
-        gif2.style.opacity = 1;
-        progressBar.style.opacity = 1;
+        playSong(song, songid, currentTime);
     })
 
     // Managing the pause button
     pauseButton.addEventListener("click", () => {
-        pauseSong(songid);
+        pauseSong(song, songid);
     })
 
     // Managing the download button
@@ -130,8 +131,8 @@ function playSong(songid) {
     })
 
     //Managing Previous and Next buttons
-    previousButton.addEventListener("click", () => { playSong(songid - 1) });
-    nextButton.addEventListener("click", () => { playSong(songid + 1) });
+    previousButton.addEventListener("click", () => { playPauseDownload(songid - 1) });
+    nextButton.addEventListener("click", () => { playPauseDownload(songid + 1) });
 }
 
 
