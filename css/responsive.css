@@ -4,7 +4,7 @@
     }
 
     .header {
-        height: 9vh;
+        height: 8vh;
         flex-direction: column;
         align-items: center;
         transition: all 0.5s ease-in-out;
@@ -12,15 +12,16 @@
     }
 
     .brand {
-        width: 284px;
+        width: 272px;
+        justify-content: center;
     }
 
     .brand>img {
-        width: 20%;
+        width: 21.5%;
     }
 
     .brand>h1 {
-        font-size: 30pt;
+        font-size: 25pt;
     }
 
     .nav>ul {
@@ -36,7 +37,7 @@
     }
 
     .container {
-        height: 84.2vh;
+        height: 85.2vh;
         flex-direction: column;
     }
 
