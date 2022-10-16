@@ -4,7 +4,7 @@
     }
 
     .header {
-        height: 8vh;
+        height: 9vh;
         flex-direction: column;
         align-items: center;
         transition: all 0.5s ease-in-out;
@@ -60,7 +60,7 @@
     }
 
     .footer {
-        height: 6.8vh;
+        height: 5.8vh;
         flex-direction: column;
         font-size: 0.84rem;
     }
@@ -75,5 +75,52 @@
 
     .card {
         width: 270px;
+    }
+}
+
+@media screen and (max-height: 360px) {
+    .header {
+        height: 13vh;
+    }
+
+    .burger{
+        top: 8px;
+    }
+
+    .burger-height {
+        height: 130px;
+    }
+
+    .brand>img {
+        width: 17.5%;
+    }
+
+    .brand>h1 {
+        font-size: 22pt;
+    }
+
+    .nav>ul>li {
+        font-size: 1.2rem;
+    }
+
+    .container{
+        height: 82.2vh;
+    }
+
+    .card{
+        width: 180px;
+    }
+
+    #gif1, #gif2 {
+        width: 28%;
+        padding-bottom: 2.5%;
+    }
+
+    .song{
+        height: 33%;
+    }
+
+    .footer{
+        height: 4.8vh;
     }
 }
