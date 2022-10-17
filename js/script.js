@@ -288,8 +288,12 @@ function playPauseDownload(songid) {
     })
 
     //Managing Previous and Next buttons
-    previousButton.addEventListener("click", () => { playPauseDownload(songid - 1) });
-    nextButton.addEventListener("click", () => { playPauseDownload(songid + 1) });
+    previousButton.addEventListener("click", () => {
+        song.id == 1 ? playPauseDownload(28) : playPauseDownload(songid - 1)
+    });
+    nextButton.addEventListener("click", () => {
+        song.id == 28 ? playPauseDownload(1) : playPauseDownload(songid + 1)
+    });
 }
 
 
