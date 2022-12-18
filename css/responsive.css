@@ -83,7 +83,7 @@
         height: 13vh;
     }
 
-    .burger{
+    .burger {
         top: 8px;
     }
 
@@ -103,24 +103,25 @@
         font-size: 1.2rem;
     }
 
-    .container{
+    .container {
         height: 82.2vh;
     }
 
-    .card{
+    .card {
         width: 180px;
     }
 
-    #gif1, #gif2 {
+    #gif1,
+    #gif2 {
         width: 28%;
         padding-bottom: 2.5%;
     }
 
-    .song{
+    .song {
         height: 33%;
     }
 
-    .footer{
+    .footer {
         height: 4.8vh;
     }
 }
