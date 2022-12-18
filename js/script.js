@@ -15,122 +15,122 @@ let songs = [
     {
         id: 1,
         imageSrc: "https://1.bp.blogspot.com/-S6wPn6XzLak/XEXB-kBt2FI/AAAAAAAAGkk/QuP9ZIZXnt8P4-Q4CkyrTpujPBTCQZ06ACLcBGAs/s1600/aye_mere_watan_ke_logo_lyrics_in_hindi.jpeg",
-        audioSrc: "https://pwdown.com/12514/Aye Mere Watan Ke Logo - Lata.mp3",
+        audioSrc: "https://pwdown.info/12514/Aye Mere Watan Ke Logo - Lata.mp3",
         title: "Aye Mere Watan Ke Logo - Lata Mangeshkar",
         duration: "06:23",
     },
     {
         id: 2,
+        imageSrc: "https://i.ytimg.com/vi/NUqlCJTYu6I/maxresdefault.jpg",
+        audioSrc: "https://pwdown.info/8679/04%20Pal%20-%20K.K.%20(MTV%20Unplugged)%20[PagalWorld.com].mp3",
+        title: "Pyaar Ke Pal - KK",
+        duration: "07:01",
+    },
+    {
+        id: 3,
+        imageSrc: "https://i.ytimg.com/vi/G7KtPzUpCAc/maxresdefault.jpg",
+        audioSrc: "https://cdn.pagalworld.us/songs/bollywood/3 Idiots - Behti Hawa Sa Tha Woh.mp3",
+        title: "Behti Hawa Sa Tha Wo - Shaan",
+        duration: "05:01",
+    },
+    {
+        id: 4,
         imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWN5EUXdBtZM4IPuFFSUTNSr2ul4Sy6iZM1g&usqp=CAU",
-        audioSrc: "https://pwdown.com/110792/01. I Am A Disco Dancer.mp3",
+        audioSrc: "https://pwdown.info/110792/01. I Am A Disco Dancer.mp3",
         title: "I Am A Disco Dancer - Bappi Lahiri / Alisha Chinai",
         duration: "07:49",
     },
     {
-        id: 3,
-        imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_kSEuKPN22CZYI9yKWECQCpsVfhuxMa_trCCPrIXNPGRerAZmlgVVNQQlpeDaBqSnZQ&usqp=CAU",
-        audioSrc: "https://pwdown.com/9302/05 Bhagwan Hai Kahan Re Tu - PK (Sonu Nigam)  - 190Kbps.mp3",
-        title: "Bhagwan Hai Kahan Re Tu - Sonu Nigam",
-        duration: "05:11",
-    },
-    {
-        id: 4,
+        id: 5,
         imageSrc: "https://i.ytimg.com/vi/R2HQGNuIY-Y/maxresdefault.jpg",
-        audioSrc: "https://pwdown.com/12308/02 Yeh Dosti Hum Nahin (Happy Versio - Sholay 320Kbps.mp3",
+        audioSrc: "https://pwdown.info/12308/02 Yeh Dosti Hum Nahin (Happy Versio - Sholay 320Kbps.mp3",
         title: "Yeh Dosti Hum Nahin Todenge - Kishore Kumar",
         duration: "05:21"
     },
     {
-        id: 5,
+        id: 6,
         imageSrc: "https://i.ytimg.com/vi/eWNqzgPr6S0/maxresdefault.jpg",
-        audioSrc: "https://pwdown.com/113355/01. Mera Rang De Basanti Chola.mp3",
+        audioSrc: "https://pwdown.info/113355/01. Mera Rang De Basanti Chola.mp3",
         title: "Mera Rang De Basanti Chola - Udit Narayan",
         duration: "04:37",
-        download: "https://pwdown.com/113355/01.%20Mera%20Rang%20De%20Basanti%20Chola.mp3"
-    },
-    {
-        id: 6,
-        imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmPonlBsFrAybKqAAMEohg2oQgcOTHNR6Ylg&usqp=CAU",
-        audioSrc: "https://pwdown.com/112988/03. Bum Bum Bole.mp3",
-        title: "Bum Bum Bole - Shaan",
-        duration: "05:33",
+        download: "https://pwdown.info/113355/01. Mera Rang De Basanti Chola.mp3"
     },
     {
         id: 7,
+        imageSrc: "https://i.ytimg.com/vi/i1zuhY6hZvw/maxresdefault.jpg",
+        audioSrc: "https://pwdown.info/113632/Aanewala Pal Janewala Hai - LoFi.mp3",
+        title: "Aanewala Pal Janewala Hai - Kishore Kumar",
+        duration: "03:26"
+    },
+    {
+        id: 8,
+        imageSrc: "https://c-fa.cdn.smule.com/rs-s39/arr/30/0e/ef541913-bb22-433e-a0b1-b5ffa48ae765.jpg",
+        audioSrc: "https://cdn.pagalworld.us/songs/bollywood/3 Idiots - Aal Izz Well.mp3",
+        title: "Aal Izz Well - Shaan / Sonu Nigam",
+        duration: "04:36",
+    },
+    {
+        id: 9,
+        imageSrc: "https://i.scdn.co/image/ab67616d0000b273c2fd8e88b0dcb889089a0abc",
+        audioSrc: "https://cdn.pagalworld.us/songs/320kbps/Agneepath 2012 - Abhi Mujh Mein Kahin.mp3",
+        title: "Abhi Mujh Mein Kahin - Sonu Nigam",
+        duration: "06:04",
+    },
+    {
+        id: 10,
         imageSrc: "https://www.hinditracks.in/wp-content/uploads/2014/01/Holi-Ke-Din-Lyrics.jpg",
-        audioSrc: "https://pwdown.com/12308/05 Holi Ke Din - Sholay 320Kbps.mp3",
+        audioSrc: "https://pwdown.info/12308/05 Holi Ke Din - Sholay 320Kbps.mp3",
         title: "Holi Ke Din - Lata Mangeshkar / Kishore Kumar",
         duration: "05:42"
     },
     {
-        id: 8,
-        imageSrc: "https://i.scdn.co/image/ab67616d0000b273261cc572f6df52bfd2ad5743",
-        audioSrc: "https://cdn.pagalworld.us/songs/new/192/06 - Pardesi Pardesi - RH (1996).mp3",
-        title: "Pardesi Pardesi - Alka Yagnik / Udit Narayan",
-        duration: "08:18"
-    },
-    {
-        id: 9,
-        imageSrc: "https://c-fa.cdn.smule.com/rs-s80/arr/5d/3a/58a00447-27d6-4fe4-9f74-52222985c4fe.jpg",
-        audioSrc: "https://pwdown.com/14044/Sara Zamana - Amitabh Bachchan - old.mp3",
-        title: "Sara Zamana - Kishore Kumar / Rajesh Roshan",
-        duration: "04:26"
-    },
-    {
-        id: 10,
-        imageSrc: "https://i.scdn.co/image/ab67616d0000b27387949e581897a3ac4814840e",
-        audioSrc: "https://pwdown.com/14654/Paisa Yeh Paisa - Old Original.mp3",
-        title: "Paisa Yeh Paisa - Kishore Kumar / Laxmikant Pyarelal",
-        duration: "05:07"
-    },
-    {
         id: 11,
         imageSrc: "https://i.ytimg.com/vi/JI4_bSQ8560/mqdefault.jpg",
-        audioSrc: "https://pwdown.com/12513/Sandese Aate Hain - Border.mp3",
+        audioSrc: "https://pwdown.info/12513/Sandese Aate Hain - Border.mp3",
         title: "Sandese Aate Hain - Sonu Nigam / Roop Kumar Rathod",
         duration: "10:25"
     },
     {
         id: 12,
-        imageSrc: "https://i.ytimg.com/vi/i1zuhY6hZvw/maxresdefault.jpg",
-        audioSrc: "https://pwdown.com/113632/Aanewala Pal Janewala Hai - LoFi.mp3",
-        title: "Aanewala Pal Janewala Hai - Kishore Kumar",
-        duration: "03:26"
+        imageSrc: "https://i.scdn.co/image/ab67616d0000b27387949e581897a3ac4814840e",
+        audioSrc: "https://pwdown.info/14654/Paisa Yeh Paisa - Old Original.mp3",
+        title: "Paisa Yeh Paisa - Kishore Kumar / Laxmikant Pyarelal",
+        duration: "05:07"
     },
     {
         id: 13,
-        imageSrc: "https://static.toiimg.com/photo/msid-71106480/71106480.jpg?167245",
-        audioSrc: "https://pwdown.com/12283/06 Tujhe Dekha To - DDLJ 320Kbps.mp3",
-        title: "Tujhe Dekha Toh Yeh Jana Sanam - Lata Mangeshkar / Kumar Sanu",
-        duration: "06:41"
+        imageSrc: "https://c-fa.cdn.smule.com/rs-s80/arr/5d/3a/58a00447-27d6-4fe4-9f74-52222985c4fe.jpg",
+        audioSrc: "https://pwdown.info/14044/Sara Zamana - Amitabh Bachchan - old.mp3",
+        title: "Sara Zamana - Kishore Kumar / Rajesh Roshan",
+        duration: "04:26"
     },
     {
         id: 14,
         imageSrc: "https://i.ytimg.com/vi/UIvpNrP4WQs/maxresdefault.jpg",
-        audioSrc: "https://pwdown.com/11394/Chalo Bulawa Aaya Hai Mata Ne - 320Kbps.mp3",
+        audioSrc: "https://pwdown.info/11394/Chalo Bulawa Aaya Hai Mata Ne - 320Kbps.mp3",
         title: "Chalo Bulawa Aaya Hai Mata Ne Bulaya Hai - Asha Bhosle / Laxmikant Pyarelal",
         duration: "08:34"
     },
     {
         id: 15,
         imageSrc: "https://i.ytimg.com/vi/3ouPNT7PWQU/mqdefault.jpg",
-        audioSrc: "https://pwdown.com/12513/Watan Walo - Indian.mp3",
+        audioSrc: "https://pwdown.info/12513/Watan Walo - Indian.mp3",
         title: "Watan Walo Watan Na Bech Dena -  Anand Raj Anand / Roopkumar Rathod",
         duration: "06:40"
     },
     {
         id: 16,
-        imageSrc: "https://www.khaskhabar.com/s3-storage/khaskhabar/khaskhabarimages/img500/1471958620-khaskhabar.jpg",
-        audioSrc: "https://pwdown.com/8436/My Name Is Lakhan (Ram Lakhan) - Original 320Kbps.mp3",
-        title: "My Name is Lakhan - Anuradha Paudwal / Laxmikant Pyarelal",
-        duration: "07:10"
+        imageSrc: "https://i.ytimg.com/vi/OK6Hux4spNM/mqdefault.jpg",
+        audioSrc: "https://cdn.pagalworld.us/songs/old/Amar%20Prem-kuch%20to%20log%20kahenge.mp3",
+        title: "Kuch Toh Log Kahenge - Kishore Kumar",
+        duration: "04:23",
     },
     {
         id: 17,
-        imageSrc: "https://i.ytimg.com/vi/_UGwE05eti0/maxresdefault.jpg",
-        audioSrc: "https://pwdown.com/12514/Meri Shaan Tiranga Hai - Tiranga.mp3",
-        title: "Meri Shaan Tiranga Hai - Mohammad Aziz / Laxmikant Pyarelal",
-        duration: "04:28"
+        imageSrc: "https://i.scdn.co/image/ab67616d0000b273d2be316742edcc853ea55141",
+        audioSrc: "https://cdn.pagalworld.us/songs/bollywood/Fanaa 2006 - Chand Sifarish.mp3",
+        title: "Chand Sifarish - Shaan / Kailash Kher",
+        duration: "05:21"
     },
     {
         id: 18,
@@ -142,7 +142,7 @@ let songs = [
     {
         id: 19,
         imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQilW0VZ4tKro_l27JMF1WmwaywZUvPD2OlvSRbKqb8UUmaLwvo_fqCNbZ1H7kMJ84zQnI&usqp=CAU",
-        audioSrc: "https://pwdown.com/12514/Aye Watan Aye Watan - Shaheed.mp3",
+        audioSrc: "https://pwdown.info/12514/Aye Watan Aye Watan - Shaheed.mp3",
         title: "Aye Watan Aye Watan - Mohammad Rafi",
         duration: "03:35"
     },
@@ -163,16 +163,16 @@ let songs = [
     {
         id: 22,
         imageSrc: "https://1.bp.blogspot.com/-DqpncAM7qBw/WIDDJtb0yLI/AAAAAAAADTQ/UqaGqwNlDAcJPqBua0ZA2PYoPoDcVTb-ACLcB/w1200-h630-p-k-no-nu/Kadam%2BKadam%2BBadhaye%2BJa%252C%2BKhushi%2BKe%2BGeet%2BGaye%2BJa%2BNetaji%2BSubhas%2BChandra%2BBose%2BThe%2BForgotten%2BHero%2B%25282005%2529.jpg",
-        audioSrc: "https://pwdown.com/111626/06. Ekla Cholo Re.mp3",
+        audioSrc: "https://pwdown.info/111626/06. Ekla Cholo Re.mp3",
         title: "Ekla Cholo Re - Sonu Nigam / Nachiketa Chakraborty",
         duration: "05:13"
     },
     {
         id: 23,
-        imageSrc: "https://i.scdn.co/image/ab67616d0000b273d2be316742edcc853ea55141",
-        audioSrc: "https://cdn.pagalworld.us/songs/bollywood/Fanaa 2006 - Chand Sifarish.mp3",
-        title: "Chand Sifarish - Shaan / Kailash Kher",
-        duration: "05:21"
+        imageSrc: "https://cdn.quotesgram.com/img/68/8/1569531603-omshantiom_18_10x7.jpg",
+        audioSrc: "https://cdn.pagalworld.us/songs/bollywood/OSO 2007 - Om Shanti Om - Medley Mix.mp3",
+        title: "Om Shanti Om - Shreya Ghosal / Shaan",
+        duration: "06:08",
     },
     {
         id: 24,
@@ -190,25 +190,39 @@ let songs = [
     },
     {
         id: 26,
-        imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-rY5PX1dqFZg5sQyT5jcG5HDchZ0y7j7Wuw&usqp=CAU",
-        audioSrc: "https://cdn.pagalworld.us/songs/bollywood/OSO 2007 - Deewangi Deewangi.mp3",
-        title: "Deewangi Deewangi - Shaan",
-        duration: "05:54",
+        imageSrc: "https://i.ytimg.com/vi/_UGwE05eti0/maxresdefault.jpg",
+        audioSrc: "https://pwdown.info/12514/Meri Shaan Tiranga Hai - Tiranga.mp3",
+        title: "Meri Shaan Tiranga Hai - Mohammad Aziz / Laxmikant Pyarelal",
+        duration: "04:28"
     },
     {
         id: 27,
-        imageSrc: "https://cdn.quotesgram.com/img/68/8/1569531603-omshantiom_18_10x7.jpg",
-        audioSrc: "https://cdn.pagalworld.us/songs/bollywood/OSO 2007 - Om Shanti Om - Medley Mix.mp3",
-        title: "Om Shanti Om - Shreya Ghosal / Shaan",
-        duration: "06:08",
+        imageSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmPonlBsFrAybKqAAMEohg2oQgcOTHNR6Ylg&usqp=CAU",
+        audioSrc: "https://pwdown.info/112988/03. Bum Bum Bole.mp3",
+        title: "Bum Bum Bole - Shaan",
+        duration: "05:33",
     },
     {
         id: 28,
+        imageSrc: "https://www.khaskhabar.com/s3-storage/khaskhabar/khaskhabarimages/img500/1471958620-khaskhabar.jpg",
+        audioSrc: "https://pwdown.info/8436/My Name Is Lakhan (Ram Lakhan) - Original 320Kbps.mp3",
+        title: "My Name is Lakhan - Anuradha Paudwal / Laxmikant Pyarelal",
+        duration: "07:10"
+    },
+    {
+        id: 29,
+        imageSrc: "https://static.toiimg.com/photo/msid-71106480/71106480.jpg?167245",
+        audioSrc: "https://pwdown.info/12283/06 Tujhe Dekha To - DDLJ 320Kbps.mp3",
+        title: "Tujhe Dekha Toh Yeh Jana Sanam - Lata Mangeshkar / Kumar Sanu",
+        duration: "06:41"
+    },
+    {
+        id: 30,
         imageSrc: "https://i.ytimg.com/vi/2liZ16dgBgg/maxresdefault.jpg",
         audioSrc: "https://cdn.pagalworld.us/songs/bollywood/Sarfarosh1999 - Zindagi Maut Na Ban.mp3",
         title: "Zindagi Maut Na Ban Jaye - Sonu Nigam / Roopkumar Rathod",
         duration: "06:19",
-    },
+    }
 ]
 
 //Creating the playlist
@@ -259,6 +273,7 @@ function playSong(song, songid, currentTime) {
     gif2.style.opacity = 1;
     progressBar.style.opacity = 1;
     audioPlayer.currentTime = currentTime;
+    const playPromise = audioPlayer.play();
     audioPlayer.play();
 }
 
